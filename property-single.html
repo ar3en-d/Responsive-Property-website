@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoovInGO.ie</title>
+    <meta name="description"
+        content=" Search 1000s of houses, apartments and properties for sale or to rent - from all leading estate agents." />
+    <meta name="keywords"
+        content="realtor, real estate agent, rent, houses for rent, appartments, home, properties, two bed appartments, house for sale, homes in ireland " />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Bootstrap 5 css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/c69faff932.js" crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Property Search Section -->
+    <div class="click-closed"></div>
+    <!-- Form Search Start-->
+    <div class="box-collapse">
+        <div class="title-box-d">
+            <h3 class="title-d">Search Property</h3>
+        </div>
+        <span><i class="far fa-window-close close-box-collapse right-boxed"></i> </span>
+        <div class="box-collapse-wrap form">
+            <form class="form-a">
+                <div class="row">
+                    <div class="col-md-12 mb-2">
+                        <div class="form-group">
+                            <label class="pb-2" for="Type">Keyword</label>
+                            <input type="text" class="form-control form-control-lg form-control-a"
+                                placeholder="Keyword">
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div class="form-group mt-3">
+                            <label class="pb-2" for="Type">Type</label>
+                            <select class="form-control form-select form-control-a" id="Type">
+                                <option>All Types</option>
+                                <option>For Rent</option>
+                                <option>For Sale</option>
+                                <option>Open House</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <div class="form-group mt-3">
+                            <label class="pb-2" for="city">County</label>
+                            <select class="form-control form-select form-control-a" id="city">
+                                <option>All Counties</option>
+                                <option>Carlow</option>
+                                <option>Cavan</option>
+                                <option>Clare</option>
+                                <option> Cork</option>
+                                <option>Donegal</option>
+                                <option>Dublin</option>
+                                <option>Galway</option>
+                                <option>Kerry</option>
+                                <option>Kildare</option>
+                                <option>Kilkenny</option>
+                                <option>Laois</option>
+                                <option>Leitrim</option>
+                                <option>Limerick</option>
+                                <option>Longford</option>
+                                <option>Louth</option>
+                                <option>Mayo</option>
+                                <option>Meath</option>
+                                <option>Monaghan</option>
+                                <option>Offaly</option>
+                                <option>Roscommon</option>
+                                <option>Sligo</option>
+                                <option>Tipperary</option>
+                                <option> Waterford</option>
+                                <option> Westmeath</option>
+                                <option>Wexford</option>
+                                <option>Wicklow</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-b">Search Property</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Property Search Section -->
+
+
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+        <div class="container">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a class="navbar-brand text-brand" href="index.html">Moovin<span class="color-b">GO</span>.ie</a>
+
+            <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+                <ul class="navbar-nav">
+
+                    <!-- button -->
+                    <li class="nav-item">
+                        <a class="nav-link color-b " href="index.html">Book Free Valuation</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="properties-grid.html">Browse Listings</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Our Fees</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Selling</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">01 516 9999</a>
+                    </li>
+
+                    <!-- button -->
+                    <li class="nav-item">
+                        <a class="nav-link color-b" href="#">Login</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <button type="button" class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse"
+                data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+                <i class="fas fa-search"></i>
+            </button>
+
+        </div>
+    </nav>
+    <!-- End Header/Navbar -->
+
+
+
+    <main id="main">
+
+        <!-- Intro Single -->
+        <section class="intro-single">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-8">
+                        <div class="title-single-box">
+                            <h1 class="title-single">67 Hanover Gardens</h1>
+                            <span class="color-d">Harold's Cross, Dublin 6W</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="properties-grid.html">Properties</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    67 Hanover Gardens
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Intro Single-->
+
+        <!-- Property Single -->
+        <section class="property-single nav-arrow-b">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div id="property-single-carousel" class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="carousel-item-b swiper-slide">
+                                    <img src="assets/img/r-architecture-2gDwlIim3Uw-unsplash.jpg" class="img-fluid"
+                                        alt="Responsive image">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="row justify-content-between">
+                            <div class="col-md-5 col-lg-4">
+                                <div class="property-price d-flex justify-content-center">
+                                    <div class="card-header-c d-flex">
+
+                                        <div class="card-title-c align-self-center">
+                                            <h5 class="title-c">€ 495,000</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="property-summary">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="title-box-d section-t4">
+                                                <h3>Quick Summary</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="summary-list">
+                                        <ul class="list">
+                                            <li class="d-flex justify-content-between">
+                                                <strong>Property ID:</strong>
+                                                <span>1134</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <strong>Location:</strong>
+                                                <span>Harold's Cross, Dublin 6W</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <strong>Property Type:</strong>
+                                                <span>House</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <strong>Status:</strong>
+                                                <span>Sale</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <strong>Area:</strong>
+                                                <span>340m
+                                                    <sup>2</sup>
+                                                </span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <strong>Beds:</strong>
+                                                <span>4</span>
+                                            </li>
+                                            <li class="d-flex justify-content-between">
+                                                <strong>Baths:</strong>
+                                                <span>2</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-lg-7 section-md-t3">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="title-box-d">
+                                            <h3>Property Description</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="property-description">
+                                    <p class="description color-text-b">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam, ullam
+                                        odio eum, natus nulla id illum itaque dolorum iure possimus. Quam, similique!
+                                        Minus aperiam, itaque quidem aliquam, consequatur alias blanditiis ipsa
+                                        dignissimos nulla mollitia fugiat, quo cum. Eaque numquam accusantium eum at
+                                        quis id minima cupiditate provident a consequatur.
+                                    </p>
+                                    <p class="description color-text-b no-margin">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nobis amet
+                                        mollitia temporibus veniam recusandae corrupti non porro vero tempora assumenda
+                                        excepturi iure omnis ipsum.
+                                    </p>
+                                </div>
+                                <div class="row section-t3">
+                                    <div class="col-sm-12">
+                                        <div class="title-box-d">
+                                            <h3>Amenities</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="amenities-list color-text-b">
+                                    <ul class="list-a">
+                                        <li>Balcony</li>
+                                        <li>Outdoor Kitchen</li>
+                                        <li>Cable Tv</li>
+                                        <li>Deck</li>
+                                        <li>Internet</li>
+                                        <li>Parking</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Property Single-->
+
+    </main>
+    <!-- End #main -->
+
+
+    <!-- Footer -->
+    <section class="section-footer">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-sm-12 col-md-4 section-md-t3">
+                    <div class="widget-a">
+                        <div class="w-header-a">
+                            <h3 class="w-title-a text-brand">Moovin<span class="color-b">GO</span>.ie</h3>
+                        </div>
+                        <div class="w-body-a">
+                            <p class="w-text-a color-text-a">
+                                Legal
+                                Moovingo is licensed by the
+                                Property Services Regulatory
+                                Authority no. 003783
+                            </p>
+                        </div>
+                        <div class="w-footer-a">
+                            <ul class="list-unstyled">
+                                <li class="color-a">
+                                    <span class="color-text-a">Phone: </span> 01 516 9999
+                                </li>
+                                <li class="color-a">
+                                    <span class="color-text-a">Address: </span> 1st floor, Sandyford Hall,
+                                    Sandyford, Dublin 18, Eircode D18 K229
+
+                                </li>
+                                <li class="color-a">
+                                    <span class="color-text-a">Email: </span> example@moovingo.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="nav-footer">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="property-grid.html">Browse Listings</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">Our Fees</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">Sellings</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="socials">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="bi bi-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="bi bi-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="bi bi-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="bi bi-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-footer">
+                        <p class="copyright color-text-a">
+                            &copy; Copyright
+                            <span class="color-a">MoovinGO.ie</span> All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="credits">
+
+                        Designed by <a href="https://www.linkedin.com/in/ardendias/" target="_blank">Arden Dias</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fas fa-arrow-up"></i></a>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
