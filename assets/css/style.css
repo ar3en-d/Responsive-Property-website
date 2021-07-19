@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #0fccd8;
+  color: #a628cc;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ a:hover {
 }
 
 .color-b {
-  color: #0fccd8 !important;
+  color: #a628cc !important;
 }
 
 .color-d {
@@ -143,7 +143,7 @@ a:hover {
   position: absolute;
   width: 70px;
   height: 4px;
-  background-color: #0fccd8;
+  background-color: #a628cc;
   bottom: 20px;
   left: 0;
 }
@@ -185,7 +185,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0fccd8;
+  background: #a628cc;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -199,7 +199,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #0fccd8;
+  background: #a628cc;
   color: #fff;
 }
 
@@ -226,7 +226,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0fccd8;
+  border-top: 6px solid #a628cc;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -266,7 +266,7 @@ a:hover {
 
 
 .btn.btn-b {
-  background-color: #0fccd8;
+  background-color: #a628cc;
   color: #ffffff;
   border-radius: 5px;
 }
@@ -278,14 +278,14 @@ a:hover {
 
 /* search button  */
 .btn.btn-b-n {
-  background-color: #0fccd8;
+  background-color: #a628cc;
   color: #ffffff;
   border-radius: 25px;
   margin: 5px;
 }
 
 .btn.btn-b-n:hover {
-  background-color: #0fccd8;
+  background-color: #a628cc;
   color: #000000;
 }
 
@@ -300,7 +300,7 @@ a:hover {
 }
 
 .btn-outline-dark:hover {
-  background-color: #0fccd8;
+  background-color: #a628cc;
   
 }
 
@@ -369,7 +369,7 @@ a:hover {
   width: 100%;
   height: 2px;
   z-index: 0;
-  background-color: #0fccd8;
+  background-color: #a628cc;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform .2s ease-out, opacity .2s ease-out 0.3s;
@@ -395,7 +395,7 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:before {
-  background-color: #0fccd8;
+  background-color: #a628cc;
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
@@ -420,7 +420,7 @@ a:hover {
 }
 
 .navbar-default.navbar-reduce .nav-link:before {
-  background-color: #0fccd8;
+  background-color: #a628cc;
 }
 
 .navbar-default.navbar-reduce .nav-link:hover {
@@ -435,7 +435,7 @@ a:hover {
 }
 
 .navbar-default.navbar-reduce .navbar-brand {
-  color: #0fccd8;
+  color: #a628cc;
 }
 .navbar-default.navbar-reduce .color-b {
   color: #000000; 
@@ -709,7 +709,7 @@ a:hover {
 }
 
 .intro-single .title-single-box {
-  border-left: 3px solid #0fccd8;
+  border-left: 3px solid #a628cc;
 }
 
 .intro-single .title-single-box .title-single {
@@ -757,13 +757,13 @@ a:hover {
 
 .calculator__sell {
   width: 60%;
-  border: 2px solid #0fccd8;
+  border: 2px solid #a628cc;
   border-radius: 5px;
 }
 
 .calculator__fee {
   width: 60%;
-  background: #0fccd8;
+  background: #a628cc;
 }
 
 input[type='range']::-webkit-slider-runnable-track {
@@ -785,14 +785,14 @@ input[type='range']::-webkit-slider-thumb {
 
 /*============= SOCIAL MEDIA STICKY BAR =============*/
 .gradient_1 {
-  background: linear-gradient(to right, #f2f2f2, #0fccd8);
+  background: linear-gradient(to right, #f2f2f2, #a628cc);
   padding: 1rem 0 .5rem;
   margin-bottom: 0;
   border-radius: 0;
   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
 }
 .jumbotron {
-  background: linear-gradient(to right, #f2f2f2, #0fccd8);
+  background: linear-gradient(to right, #f2f2f2, #a628cc);
   padding: 1rem 0 0.5rem;
   margin-bottom: 0;
   border-radius: 0;
@@ -811,7 +811,7 @@ ul.socials li {
 /* icon colors */
 .fa-4x {
   opacity: 0.8;
-  color: #0fccd8;
+  color: #a628cc;
 }
 
 
@@ -1002,7 +1002,7 @@ ul.socials li {
 .price-a {
   color: #ffffff;
   padding: .6rem .8rem;
-  border: 2px solid #0fccd8;
+  border: 2px solid #a628cc;
   border-radius: 50px;
   text-transform: uppercase;
   letter-spacing: 0.030em;
@@ -1012,7 +1012,7 @@ ul.socials li {
   width: 100%;
   position: absolute;
   z-index: 2;
-  background-color: #0fccd8;
+  background-color: #a628cc;
 }
 
 .card-info {
@@ -1080,8 +1080,8 @@ ul.socials li {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #0fccd8;
-  border-color: #0fccd8;
+  background-color: #a628cc;
+  border-color: #a628cc;
 }
 
 
@@ -1144,7 +1144,7 @@ ul.socials li {
 .section-footer .item-list-a i {
   font-size: 18px;
   padding-right: 4px;
-  color: #0fccd8;
+  color: #a628cc;
 }
 
 .section-footer .widget-a .w-title-a {
